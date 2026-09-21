@@ -5,7 +5,7 @@ import { fileURLToPath, URL } from 'node:url';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/veridical-mappingsuper/', // GitHub Pages repository base path
+  base: '/Veridical-Mapping/', // Must match your exact GitHub repository name
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
